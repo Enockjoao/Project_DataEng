@@ -1,0 +1,8 @@
+duckdb
+pandas
+prefect
+sqlalchemy
+dbt-duckdb
+dbt-core
+dbt-postgres
+psycopg2
