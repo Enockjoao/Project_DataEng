@@ -27,17 +27,23 @@ wine_data/
 │   ├── visualization/     # Scripts para geração de dashboards
 ├── tests/                 # Testes automatizados
 └── README.md              # Documentação do projeto
+
+
 🚀 Funcionalidades
 Ingestão de Dados: Integração com diversas fontes de dados (APIs, arquivos, etc.).
 Transformação de Dados: Limpeza, enriquecimento e agregação dos dados.
 Armazenamento: Gerenciamento eficiente dos dados em um Data Lake.
 Análise e Visualização: Criação de dashboards interativos e relatórios.
+
+
 🛠️ Tecnologias Utilizadas
 Linguagens: Python, SQL
 Ferramentas: Prefect, DBT, SQLite
 Visualização: Apache Superset (ou equivalente)
 Orquestração: Prefect
-Armazenamento: Data Lake baseado em arquivos estruturados
+Armazenamento: Data Lake baseado em arquivos estruturados.
+
+
 🗂️ Instalação e Configuração
 Pré-requisitos
 Python 3.9 ou superior
@@ -48,45 +54,53 @@ Ferramenta de visualização de dados (opcional)
 Passo a Passo
 Clone o repositório:
 
-bash
-Copiar código
+
 git clone https://github.com/seu_usuario/wine_data.git
 cd wine_data
 Instale as dependências:
 
-bash
-Copiar código
+
 pip install -r requirements.txt
 Configure o ambiente:
+
 
 Ajuste os arquivos de configuração em src/config/.
 Execute o pipeline:
 
+
 bash
-Copiar código
 python src/ingestion/main.py
+
+
 📊 Exemplos de Visualizações
+
+
 <div> <img src="docs/images/dashboard_overview.png" alt="Dashboard Overview" width="600"> <p>Figura 1: Exemplo de dashboard criado com os dados transformados.</p> </div>
+
+
 🧪 Testes
 Execute os testes automatizados com o comando:
 
 bash
-Copiar código
 pytest tests/
 👥 Contribuições
 Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
+
 Faça um fork do projeto
 Crie uma branch com a sua feature:
+
 bash
-Copiar código
 git checkout -b feature/nova-feature
 Envie um pull request
+
+
 📄 Licença
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
+
 markdown
-Copiar código
+
 
 ### Organização de Arquivos
 
