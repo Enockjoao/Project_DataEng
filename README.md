@@ -1,4 +1,4 @@
-Aqui está um exemplo de um README.md bem estruturado para o projeto wine_data. O arquivo utiliza HTML para organizar seções e oferece uma visão clara do propósito e funcionalidades do projeto:
+
 
 markdown
 Copiar código
