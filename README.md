@@ -1,7 +1,6 @@
 
 
-markdown
-Copiar código
+
 # Wine Data Project
 
 ## 📜 Descrição
